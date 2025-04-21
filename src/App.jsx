@@ -1,7 +1,9 @@
-import LogoSection from "./components/LogoSection";
+import LogoSection from "./sections/LogoSection";
 import Navbar from "./components/Navbar";
+import FeaturesCard from "./sections/FeaturesCard";
 import Hero from "./sections/Hero";
 import Showcase from "./sections/Showcase";
+import ExperienceSection from "./sections/ExperienceSection";
 
 const App = () => {
     return (
@@ -10,6 +12,8 @@ const App = () => {
             <Hero />
             <Showcase />
             <LogoSection />
+            <FeaturesCard />
+            <ExperienceSection />
         </>
     )
 }
